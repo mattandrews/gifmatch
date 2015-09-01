@@ -28,7 +28,7 @@
 		for (var i = 1; i<=numGifs; i++) {
 			html += '<audio preload id="audio' + i + '" data-gif="gif' + i + '">' +
 					'<source src="audio/ogg/' + i + '.ogg" type="audio/ogg" /></audio>' +
-					'<div class="gif"><x-gif src="gifs/' + i + '.gif" bpm="180" stopped fill data-audio="audio' + i + '" data-id="' + i + '" id="gif' + i + '"></x-gif></div>';
+					'<div class="gif"><x-gif src="gifs/' + i + '.gif" bpm="160" stopped fill ping-pong data-audio="audio' + i + '" data-id="' + i + '" id="gif' + i + '"></x-gif></div>';
 			$('#players').append('<li id="player' + i + '"></li>')
 			players['player-' + i] = new Gapless5('player' + i, {
 				tracks: ['audio/ogg/' + i + '.ogg'],
