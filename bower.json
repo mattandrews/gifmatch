@@ -1,0 +1,22 @@
+{
+  "name": "beatmatch",
+  "version": "0.0.0",
+  "authors": [
+    "Matt Andrews <matthew.andrews02@bbc.co.uk>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gapless5": "*",
+    "webcomponentsjs": "~0.7.12"
+  }
+}
