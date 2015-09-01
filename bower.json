@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "gapless5": "*",
-    "webcomponentsjs": "~0.7.12"
+    "webcomponentsjs": "~0.7.12",
+    "x-gif": "~0.1.1"
   }
 }
